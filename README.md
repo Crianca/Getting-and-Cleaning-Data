@@ -35,25 +35,25 @@ Output: *tidy.txt*
 
 Required packages: dplyr, data.table
 
-Getting ready for tidying data
-Reading in the data, feature and activty labels with raed.table()
+***Getting ready for tidying data***
+Reading in the data, features and activty labels with raed.table()
 
-Merges the training and the test sets to create one data set.
+***Merges the training and the test sets to create one data set***
 - creating one training and one test data with cbind
     includes files based on: subject, Y (activity) and X (measurements)
 - creating one data file from previous two with rbind
 
-Appropriately labels the data set with descriptive variable names. 
+***Appropriately labels the data set with descriptive variable names***
 - adding column names based on features.txt
 
-Extracts only the measurements on the mean and standard deviation for each measurement. 
+***Extracts only the measurements on the mean and standard deviation for each measurement ***
 - subset the big data file, keeping variables thats labels include the term mean or std 
     (using grepl function) 
 
-Uses descriptive activity names to name the activities in the data set
+***Uses descriptive activity names to name the activities in the data set***
 - converting the activity variable into a factor based on activity_labels.txt
     using its levels and labels
     
-Creating second, independent tidy data set with the average of each variable for each activity and each subject
+***Creating second, independent tidy data set with the average of each variable for each activity and each subject***
 - group by with aggregate function, computing the mean for each subject/activty
 - create tidy.txt file 
