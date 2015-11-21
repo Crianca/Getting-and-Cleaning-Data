@@ -30,7 +30,7 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Step by Step guide:
 
-Script: *run_analysis.R*
+Script: *run_analysis.R* 
 Output: *tidy.txt*
 
 Required packages: dplyr, data.table
