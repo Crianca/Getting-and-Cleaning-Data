@@ -60,4 +60,3 @@ Uses descriptive activity names to name the activities in the data set
 Creating second, independent tidy data set with the average of each variable for each activity and each subject
 - group by with aggregate function, computing the mean for each subject/activty
 - create tidy.txt file 
-
