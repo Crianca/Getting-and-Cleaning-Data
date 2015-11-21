@@ -1,7 +1,6 @@
 # Getting-and-Cleaning-Data
 Course Project for Getting and Cleaning Data on Coursera
 
-
 data used:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -18,25 +17,23 @@ You should create one R script called run_analysis.R that does the following.
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Used files:
-UCI HAR Dataset/test/subject_test.txt
-UCI HAR Dataset/test/X_test.txt
-UCI HAR Dataset/test/y_test.txt
+-UCI HAR Dataset/test/subject_test.txt
+-UCI HAR Dataset/test/X_test.txt
+-UCI HAR Dataset/test/y_test.txt
 
-UCI HAR Dataset/train/subject_train.txt
-UCI HAR Dataset/train/X_train.txt
-UCI HAR Dataset/train/y_train.txt
+-UCI HAR Dataset/train/subject_train.txt
+-UCI HAR Dataset/train/X_train.txt
+-UCI HAR Dataset/train/y_train.txt
 
-UCI HAR Dataset/features.txt
-UCI HAR Dataset/activity_labels.txt
-
-Script: run_analysis.R
-
-required packages: dplyr, data.table
-
-output: tidy.txt
-
+-UCI HAR Dataset/features.txt
+-UCI HAR Dataset/activity_labels.txt
 
 ## Step by Step guide:
+
+Script: *run_analysis.R*
+Output: *tidy.txt*
+
+Required packages: dplyr, data.table
 
 Getting ready for tidying data
 Reading in the data, feature and activty labels with raed.table()
