@@ -30,13 +30,12 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Step by Step guide:
 
-Script: *run_analysis.R* 
-Output: *tidy.txt*
-
-Required packages: dplyr, data.table
+- Script: *run_analysis.R* 
+- Output: *tidy.txt*
+- Required packages: dplyr, data.table
 
 ***Getting ready for tidying data***
-Reading in the data, features and activty labels with raed.table()
+- Reading in the data, features and activty labels with raed.table()
 
 ***Merges the training and the test sets to create one data set***
 - creating one training and one test data with cbind
@@ -46,7 +45,7 @@ Reading in the data, features and activty labels with raed.table()
 ***Appropriately labels the data set with descriptive variable names***
 - adding column names based on features.txt
 
-***Extracts only the measurements on the mean and standard deviation for each measurement ***
+***Extracts only the measurements on the mean and standard deviation for each measurement***
 - subset the big data file, keeping variables thats labels include the term mean or std 
     (using grepl function) 
 
