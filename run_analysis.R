@@ -37,5 +37,4 @@ extData$activity <- factor(extData$activity, levels = activity[,1], labels = act
 
 ##new data with the average of each variable for each activity and each subject
 Data2 <- aggregate(extData, by = list(extData$subject, extData$activity), mean)
-Data2$activity <- Data2$Group.2
 write.table(Data2, file = "tidy.txt", row.name=FALSE)
